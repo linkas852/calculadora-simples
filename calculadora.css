@@ -78,8 +78,9 @@ main{
   }
   
   .output{
-   grid-column: 1/-1;
-   grid-area: output;
+  white-space:nowrap;
+  grid-column: 1/-1;
+  grid-area: output;
   background-color:#235628;
   font-size:30px;
   margin-bottom:25px;

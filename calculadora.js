@@ -131,3 +131,117 @@ deleteButton.addEventListener('click', () =>{
     calculator.updateDisplay();
 
 })
+document.addEventListener("keypress", function(e){
+    if(e.key === "1"){
+        const press1 = document.querySelector("#btn01");
+        press1.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "2"){
+        const press2 = document.querySelector("#btn02");
+        press2.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "3"){
+        const press3 = document.querySelector("#btn03");
+        press3.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "4"){
+        const press4 = document.querySelector("#btn04");
+        press4.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "5"){
+        const press5 = document.querySelector("#btn05");
+        press5.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "6"){
+        const press6 = document.querySelector("#btn06");
+        press6.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "7"){
+        const press7 = document.querySelector("#btn07");
+        press7.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "8"){
+        const press8 = document.querySelector("#btn08");
+        press8.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "9"){
+        const press9 = document.querySelector("#btn09");
+        press9.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "0"){
+        const press0 = document.querySelector("#btn00");
+        press0.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "/"){
+        const pressdiv = document.querySelector("#btndiv");
+        pressdiv.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "*"){
+        const pressx = document.querySelector("#btnx");
+        pressx.click();
+    }
+})
+document.addEventListener("keyup", function(e){
+    if(e.key === "Backspace"){
+        const pressbs = document.querySelector("#btndel");
+        pressbs.click();
+    }
+})
+document.addEventListener("keyup", function(e){
+    if(e.key === "Delete"){
+        const pressca = document.querySelector("#btnca");
+        pressca.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "-"){
+        const pressless = document.querySelector("#btnless");
+        pressless.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "Enter"){
+        const pressEnter = document.querySelector("#btnequal");
+        pressEnter.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "+"){
+        const pressPlus = document.querySelector("#btnplus");
+        pressPlus.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === "."){
+        const pressPoint = document.querySelector("#btnpoint");
+        pressPoint.click();
+    }
+})
+document.addEventListener("keypress", function(e){
+    if(e.key === ","){
+        const pressPoint = document.querySelector("#btnpoint");
+        pressPoint.click();
+    }
+})
